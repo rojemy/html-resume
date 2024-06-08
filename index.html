@@ -1,92 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body>
-    <h1>Rojemy Emanuel D.</h1>
-    <img
-    src="./assets/images/ProfilePicture.PNG"
-    alt="profile image of Rojemy"
-    height="100"
-    > 
-    <h2>Summary</h2>
-    <p>Experienced QA Software Tester with a strong background in manual testing and test automation with Python and
-        selenium, also a comprehensive understanding of SDLC principles and methodologies. Proven expertise in utilizing
-        industry-standard tools such as ALM, Zephyr, Jira, MS SQL and Postman by working in Agile environment. Adept at
-        analyzing requirements, designing test plans, test execution and defect management. Self-development area of focus centers
-        around test automation and business analysis.
-    </p>
-    <hr>
-    <h2>Education</h2>
-    <ul>
-        <li>
+
+    <div class="top-container">
+        <img class="top-cloud" src="./assets/images/cloud.png" alt="cloud">
+        <div class="title-text">
+            <h1 class="header-text">I'm Rojemy.</h1>
+            <h2 class="header-text">QA + Programmer</h2>
+        </div>
+        <img class="bottom-cloud" src="./assets/images/cloud.png" alt="cloud">
+    </div>
+
+    <div class="middle-container">
+
+        <div class="profile">
+            <img class="profile-picture" src="./assets/images/image.PNG" alt="profile image of Rojemy">
+            <h2>Hello!</h2>
+            <p class="intro">
+                I am a experienced QA Software Tester with a strong background in manual testing and test
+                automation with Python
+                and selenium, also a comprehensive understanding of SDLC principles and methodologies.
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="work-experience">
+            <h2>Work Experiences</h2>
+
             <h3>IT Software Testing Analyst - 3M</h3>
             <p>Aug 2021 - Present</p>
-            <ul>
-                <li>Create and automate functional Test Cases with Python and Selenium
-                    following established Test Case quality standards and structured
-                    testing techniques.
-                </li>
-                <li>
-                    Review and interprets software functional requirements, design documents,
-                    and process flows in order to create Test Cases.
-                </li>
-                <li>
-                    Executes functional testing and documents quality testing results
-                    following established documentation standards.
-                </li>
-                <li>
-                    Review Test Cases and Test Results for adherence to established
-                    quality standards and provide feedback on them.
-                </li>
-            </ul>
-        </li>
-    </ul>
-    <ul>
-        <li>
+
+            <!-- <p>
+                Create and automate functional Test Cases with Python and Selenium
+                following established Test Case quality standards and structured
+                testing techniques.
+            </p>
+            <p>
+                Review and interprets software functional requirements, design documents,
+                and process flows in order to create Test Cases.
+            </p>
+            <p>
+                Executes functional testing and documents quality testing results
+                following established documentation standards.
+            </p>
+            <p>
+                Review Test Cases and Test Results for adherence to established
+                quality standards and provide feedback on them.
+            </p> -->
+
             <h3>Quality Assurance Technician - Amazon</h3>
             <p>Jul 2020 – Aug 2021</p>
-            <ul>
-                <li>Own manual testing cutting edge applications and products at the user
-                    level.
-                </li>
-                <li>
-                    Write and maintain black box test cases.
-                </li>
-                <li>
-                    Execute and verify results of existing automated tests.
-                </li>
-            </ul>
-        </li>
-    </ul>
-    <hr>
-    <h2>Skills</h2>
-    <ul>
-        <li>Jira</li>
-        <li>Zephyr</li>
-        <li>Selenium web driver</li>
-        <li>qTest</li>
-        <li>Postman</li>
-        <li>ALM</li>
-        <li>Power BI</li>
-        <li>MS SQL Server</li>
-    </ul>
-    <hr>
-    <h2>Other</h2>
-    <ul>
-        <li>
-            <a href="roje.diaz@gmail.com" target="_blank">Gmail</a>
-        </li>
-        <li>
-            <a href="https://github.com/rojemy" target="_blank">GitHub</a>
-        </li>
-    </ul>
-    <footer>
-        © Rojemy Emanuel D. All rights reserved.
-    </footer>
+            <!-- <p>
+                Own manual testing cutting edge applications and products at the user level.
+            </p>
+            <p>
+                Write and maintain black box test cases.
+            </p>
+            <p>
+                Execute and verify results of existing automated tests.
+            </p> -->
+        </div>
+
+        <hr>
+
+        <div class="skills">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="column">
+                    <p>Jira</p>
+                    <p>Zephyr</p>
+                    <p>Selenium web driver</p>
+                    <p>qTest</p>
+                </div>
+                <div class="column">
+                    <p>Postman</p>
+                    <p>ALM</p>
+                    <p>Power BI</p>
+                    <p>MS SQL Server</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-container">
+        <h2 class="footer-text">Get In Touch!</h2>
+        <a class="footer-link" href="roje.diaz@gmail.com" target="_blank">Gmail</a>
+        <a class="footer-link" href="https://github.com/rojemy" target="_blank">GitHub</a>
+        <a class="footer-link" href="https://cr.linkedin.com/in/rojemy-emanuel-a86413208" target="_blank">LinkedIn</a>
+        <p class="copyright">© Rojemy Emanuel D. All rights reserved.</p>
+    </div>
 </body>
+
 </html>
